@@ -1,0 +1,111 @@
+.container{
+    display: flex;
+    align-items: start;
+    position: relative;
+}
+
+.left {
+    width: 25vw;
+    /* background-color: rgb(35, 35, 35);
+    border-radius: 10px; */
+    position: sticky;
+    top: 0;
+}
+
+
+.home-box{
+    background-color: rgb(35, 35, 35);
+    border: 2px solid rgb(29, 13, 13);
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.home-box ul li {
+    list-style: none;
+    width: 30px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+    padding-block: 7px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.library-box{
+    background-color: rgb(35, 35, 35);
+    border: 2px solid rgb(29, 13, 13);
+    border-radius: 10px;
+    margin: 3px;
+    padding-block: 10px;
+    font-size: 15px;
+}
+
+.library{
+    padding-left: 15px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.library-box h5{
+    margin-block: 7px;
+    padding-left:60px;
+    color: rgb(201, 184, 184);
+    font-weight: lighter;
+    cursor: pointer;
+
+}
+
+.footer-left{
+    background-color: rgb(35, 35, 35);
+    color: gray;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid rgb(29, 13, 13);
+    margin: 3px;
+    padding-left: 30px;
+    padding-block: 10px;
+   
+}
+
+.footer-left ul li{
+    list-style: none;
+    padding-block: 7px;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 160px;
+    margin: 10px;
+    
+}
+
+.library img {
+    width: 30px;
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius:20px;
+    width: 70px;
+    height: 30px;
+    overflow: hidden;
+    padding-left: 25px;
+    margin-left: -10px;
+    margin-block: 7px;
+    cursor: pointer;
+}
+
+
+.artist-left{
+    margin-left: 20px;
+    padding: 7px;
+    cursor: pointer;
+}
+

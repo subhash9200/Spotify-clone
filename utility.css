@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.right {
+    overflow: hidden;
+    width: 75vw;
+    background-color: rgb(35, 35, 35);
+    border: 2px solid rgb(29, 13, 13);
+    border-radius: 10px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 51, 51);
+    padding: 10px;
+    border: 2px solid rgb(35, 35, 35);
+    border-radius: 10px;
+}
+
+.arrow img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.login-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.login {
+    background-color: rgb(42, 185, 78);
+    color: rgb(255, 255, 255);
+    width: 80px;
+    height: 28px;
+    border: 2px solid rgb(42, 185, 78);
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.login:hover {
+    transform: scale(1.1);
+}
+
+.section {
+    margin-block: 34px;
+}
+
+.artist-name {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artist-name >*:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.artist-img img {
+    border-radius: 200px;
+    width: 170px;
+    margin-bottom: 10px;
+
+}
+
+.artist-img div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.artist-flex {
+    display: flex;
+}
+
+.artist-img2 img {
+    border-radius: 10px;
+    width: 170px;
+    margin-bottom: 10px;
+
+}
+
+.artist-img2 div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right div {
+    margin: 30px;
+}
+
+.footer-right p {
+    padding-block: 7px;
+    font-size: 14px;
+    color: gray;
+}
+
+.hr {
+    width: 95%;
+    height: 1px;
+    background-color: gray;
+    margin: auto;
+}
+
+
+.play-icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 130px;
+    left: 55px;
+    visibility: hidden;
+    transition: all 0.2s ease-in;
+}
+
+.position {
+    position: relative;
+    padding: 5px;
+}
+
+.position:hover .play-icon {
+    visibility: visible;
+    top: 120px;
+}
+
+.position:hover{
+    background-color:rgb(53, 51, 51);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.player {
+    position: fixed;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.884);
+    width: 73%;
+    height: 65px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 12px;
+    padding-top: 2px;
+    /* margin: 10px; */
+}
+
+.player img {
+    width: 40px;
+    margin-top: -10px;
+    transition: all 0.1s ease-in-out;
+}
+
+.player div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.player img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#input-bar{
+    width: 100%;
+    height: 5px;
+    accent-color:rgb(44, 190, 44);
+    cursor: pointer;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cd{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+}
