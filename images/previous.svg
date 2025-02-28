@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+    <!-- Green Background -->
+    <circle fill="#01A437" cx="256" cy="256" r="256"/>
+    <!-- White Icon without Border -->
+    <path fill="#FFFFFF" d="M207.031 170.626h-27.46c-5.197 0-9.447 4.283-9.447 9.458v151.832c0 5.175 4.283 9.458 9.447 9.458h27.46c5.175 0 9.458-4.26 9.458-9.458V180.084c0-5.198-4.25-9.458-9.458-9.458zm38.345 98.072c-9.457-8.443-9.201-15.949 0-24.493l75.721-70.635c10.317-6.458 21.069-2.665 20.78 10.797l-.402 142.095c-.881 14.589-9.213 18.593-21.504 11.845l-74.595-69.609z"/>
+</svg>
